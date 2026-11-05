@@ -1,0 +1,17 @@
+# VOC Monitor - 省钱版依赖
+# 安装: pip install -r requirements.txt
+
+# HTTP请求库 (所有模块共用)
+requests>=2.31.0
+
+# Reddit监控 (替代 Apify) - 使用 PRAW 调用 Reddit 官方免费 API
+praw>=7.7.0
+
+# YouTube监控 (替代 YouTube Data API) - 免费, 不消耗 API 配额
+youtube-search-python>=1.6.0
+
+# Google News RSS监控 - 完全免费
+feedparser>=6.0.0
+
+# 可选: 如果使用 YouTube 官方 API 作为备用
+# google-api-python-client>=2.100.0
